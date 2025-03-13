@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  font-family: "EB Garamond", serif;
+}
+
+.logo {
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content p {
+  max-width: 40%;
+  text-align: left;
+  margin-right: 30px;
+}
+
+.image {
+  width: 40%;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tabela {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.tabela tr {
+  text-align: center;
+}
+
+.tabela td {
+  padding: 10px;
+}
+
+.character-img {
+  width: 200px;
+}
