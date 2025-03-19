@@ -1,16 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* style global */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Quicksand", sans-serif;
-  color: #262626;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
   font-size: 12px;
   margin: 20px 30px;
+  background-color: #f1f1f1;
+  color: #262626;
 }
 
 /* cabeçalho */
@@ -19,14 +22,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 40px;
-  background: white;
-  box-shadow: 0px 14px 17px -3px rgba(0, 0, 0, 0.1);
   font-weight: 500;
 }
 
 .header__intel-logo {
-  width: 70px;
+  width: 60px;
 }
 
 /* barra de navegação */
@@ -50,24 +50,25 @@ nav ul li {
 nav ul li a {
   color: #262626;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   padding: 10px 15px;
   transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
-  color: #0067b4;
+  color: #0168b5;
 }
 
 /* estilizaçao do index */
 .banner {
-  margin-top: 25px;
   display: flex;
   justify-content: center;
 }
 
 .banner img {
-  width: 75%;
+  width: 90vw;
+  height: auto;
+  display: block;
 }
 
 .content__container {
@@ -80,9 +81,9 @@ nav ul li a:hover {
 }
 
 .content__container h1 {
-  color: #000;
+  color: #1d1d1d;
   margin-bottom: 10px;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .content__container p {
@@ -98,10 +99,8 @@ nav ul li a:hover {
 
 .buttons button {
   padding: 10px 15px;
-  background-color: #0067b4;
-  /* background: linear-gradient(25deg, #000, #0067b4); */
-  border-radius: 12px;
-  border: none;
+  background-color: transparent;
+  border: 1px solid #0168b5;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   display: flex;
@@ -111,14 +110,14 @@ nav ul li a:hover {
 
 .buttons a {
   text-decoration: none;
-  color: #fff;
+  color: #0168b5;
   font-weight: bold;
 }
 
 .buttons button:hover {
-  transform: scale(1.1);
-  background-color: #004e8c;
-  /* background: linear-gradient(25deg, #000, #004e8c);  */
+  color: #004e8c;
+  border-color: #004e8c;
+  text-decoration: underline;
 }
 
 /* estilizaçao do cadastro */
@@ -137,11 +136,8 @@ nav ul li a:hover {
   gap: 15px;
   width: 440px;
   height: 420px;
-  border-radius: 13px;
-  -webkit-box-shadow: 2px 15px 40px -1px rgba(0, 0, 0, 0.18);
-  -moz-box-shadow: 2px 15px 40px -1px rgba(0, 0, 0, 0.18);
-  box-shadow: 2px 15px 40px -1px rgba(0, 0, 0, 0.18);
-  border: 1px solid #000;
+  border-radius: 10px;
+  border: 1px solid #1d1d1d;
 }
 
 .form__container h2 {
@@ -149,30 +145,31 @@ nav ul li a:hover {
 }
 
 .form button {
-  padding: 7px 15px;
-  background-color: #0067b4;
-  border-radius: 12px;
+  background-color: #0168b5;
   border: none;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 200px;
+  height: 25px;
   color: #fff;
-  font-weight: bold;
 }
 
 .form input:focus {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.18); 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.18);
 }
 
 .form button:hover {
-  transform: scale(1.1);
   background-color: #004e8c;
 }
 
 .form input {
   padding: 3px;
+  width: 200px;
+  border-radius: 0%;
+  border: 1px solid #1d1d1d;
 }
 
 /* estilizaçao do sobre */
