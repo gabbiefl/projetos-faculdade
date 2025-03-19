@@ -27,4 +27,3 @@ Deve conter um formulário básico com campos como:
 -  Um subtítulo (h2) para cada seção (história, missão, valores).
 -  Pelo menos um parágrafo explicativo em cada seção.
 -  Um link que retorne à página home (index.html).
-
