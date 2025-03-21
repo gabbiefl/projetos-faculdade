@@ -27,3 +27,15 @@ Deve conter um formulário básico com campos como:
 -  Um subtítulo (h2) para cada seção (história, missão, valores).
 -  Pelo menos um parágrafo explicativo em cada seção.
 -  Um link que retorne à página home (index.html).
+
+## Capturas de Tela
+Index:
+![Captura de tela - Index](assets/img/screenshots/intel-screenshot-1.jpg)
+![Captura de tela - Index](assets/img/screenshots/intel-screenshot-2.jpg)
+
+Cadastro:
+![Captura de tela - Cadastro](assets/img/screenshots/intel-screenshot-3.jpg)
+
+Sobre:
+![Captura de tela - Sobre](assets/img/screenshots/intel-screenshot-4.jpg)
+
