@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  color: #3e3e3e;
+}
+
+header {
+  margin: 20px 50px 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 120px;
+}
+
+.header__search-bar {
+  position: relative; /* Mantém seu espaço no layout, mas pode ser deslocado. */
+  display: flex;
+  align-items: center;
+}
+
+.header__search-bar input {
+  height: 40px;
+  width: 500px;
+  border-radius: 20px;
+  padding-left: 45px;
+  border: 1px solid #646464;
+  font-size: 17px;
+}
+
+.header__search-bar i {
+  position: absolute; /* Sai do fluxo normal e é posicionado em relação ao pai com relative.
+ */
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #646464;
+}
+
+.header__buttons button {
+  font-size: 17px;
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 12px;
+  border: 1px solid #646464;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.side-menu {
+  background-color: #eaeaea;
+  border: 1px solid #646464;
+  width: 250px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 0px 50px;
+}
+
+.side-menu__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.side-menu__buttons button {
+  font-size: 20px;
+  width: 130px;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #646464;
+}
+
+.side-menu__subscriptions {
+  margin-top: 30px;
+}
+
+.side-menu__subscriptions span {
+  font-size: 20px;
+}
+
+.side-menu__subscriptions ul {
+  list-style: none;
+}
+
+.side-menu__subscriptions li {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.main__content {
+  flex: 1; /* Faz o conteúdo principal ocupar o espaço restante */
+  padding: 20px;
+}
+
+.main__ad-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.main__ad-banner img {
+  width: 40%;
+}
+
+.main__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__buttons button {
+  font-size: 17px;
+  width: 120px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 12px;
+  border: 1px solid #646464;
+  margin-bottom: 20px;
+}

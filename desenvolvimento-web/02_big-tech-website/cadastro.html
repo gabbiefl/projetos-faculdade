@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,15 +26,17 @@
     </div>
 
     <!-- conteudo CADASTRO -->
-    <div class="form__container">
-      <div class="form">
-        <h2>Cadastro</h2>
-        <input type="text" name="name" placeholder="Nome" required />
-        <input type="email" name="email" placeholder="E-mail" required />
-        <input type="tel" name="phone-number" placeholder="Telefone" required />
-
-        <button>Enviar</button>
-      </div>
-    </div>
+    <div class="cadastro__container">
+      <h2>Crie sua conta</h2>
+      <p>Preencha os campos abaixo para se cadastrar e receber novidades.</p>
+      
+      <form class="cadastro__form">
+          <input type="text" placeholder="Nome Completo" required>
+          <input type="email" placeholder="E-mail" required>
+          <input type="password" placeholder="Senha" required>
+          <input type="password" placeholder="Confirme sua Senha" required>
+          <button type="submit">Cadastrar</button>
+      </form>
+  </div>
   </body>
 </html>

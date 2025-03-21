@@ -1,105 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Steins;Gate</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
+    <!-- Barra de Navegação -->
     <header>
-      <img src="/img/logo.png" alt="Logo" class="logo" />
+      <nav class="nav">
+        <ul>
+          <li><a href="/">SOBRE</a></li>
+          <img src="assets/img/navplus.png" alt="" />
+          <li><a href="/">PERSONAGENS</a></li>
+          <img src="assets/img/navplus.png" alt="" />
+          <li><a href="/">TRAILER</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <div class="content">
-      <p>
-        Steins;Gate segue Rintarou Okabe, um excêntrico autoproclamado cientista
-        louco que, junto com seus amigos, descobre acidentalmente uma maneira de
-        enviar mensagens ao passado usando um micro-ondas modificado. Conforme
-        eles experimentam a tecnologia, acabam chamando a atenção de uma
-        organização sombria e desencadeando eventos catastróficos. Para salvar
-        aqueles que ama, Okabe precisa navegar pelas múltiplas linhas do tempo,
-        enfrentando escolhas difíceis e o peso das consequências de suas ações.
-        <br />
-        <br />
-        <strong>Gênero:</strong> Ficção científica & Terror psicológico. <br />
-        <strong>Ano:</strong> 2011. <br />
-        <strong>Duração:</strong> 22min/episódio.
-      </p>
-      <img src="img/image.jpg" alt="Mayuri, Okabe and Makise" class="image" />
+    <!-- BANNER -->
+    <section class="banner">
+      <img src="assets/img/topimage.jpg" alt="" />
+    </section>
+
+    <!-- <hr> -->
+
+    <!-- Sobre -->
+    <div class="about-container">
+      <h2>Sobre</h2>
+      <div class="about-content">
+        <p>
+          "Steins;Gate" é uma visual novel de ficção científica que mistura
+          viagens no tempo com dilemas emocionais e complexidade psicológica. A
+          história segue Rintarou Okabe, um autoproclamado "cientista louco"
+          que, junto com seus amigos, descobre acidentalmente como enviar
+          mensagens para o passado. À medida que as consequências de suas ações
+          se desenrolam, ele se vê preso em um turbilhão de escolhas difíceis,
+          tentando salvar os amigos enquanto lida com o impacto de manipular o
+          tempo. A trama é envolvente, explorando como as viagens temporais
+          alteram não apenas o futuro, mas também as vidas dos personagens.
+          <br /><br />
+          Com personagens profundos como Makise Kurisu, uma neurocientista
+          brilhante, e Mayuri Shiina, sua amiga de infância, "Steins;Gate" se
+          destaca pela escrita envolvente e pelas questões filosóficas sobre
+          destino, sacrifício e as conexões humanas. A obra equilibra com
+          maestria ciência, emoção e mistério, criando uma experiência imersiva
+          e impactante que se tornou um marco dentro do gênero de ficção
+          científica, cativando fãs ao redor do mundo.
+        </p>
+        <img src="assets/img/story_image.png" alt="">
+      </div>
     </div>
 
-    <hr />
-
-    <h2>Personagens Principais</h2>
-    <div class="tabela">
-      <table border="1">
-        <tr>
-          <td>
-            <strong>Nome</strong>
-          </td>
-          <td>
-            <strong>Descrição</strong>
-          </td>
-          <td>
-            <strong>Imagem</strong>
-          </td>
-        </tr>
-        <tr>
-          <td>Rintarou Okabe</td>
-          <td>
-            Um autoproclamado "cientista louco" e líder do Future Gadget Lab.
-            Descobre acidentalmente a viagem no tempo e se vê preso em uma luta
-            para corrigir os erros causados por suas ações.
-          </td>
-          <td>
-            <img src="img/1.jpg" alt="Okabe" class="character-img" />
-          </td>
-        </tr>
-        <tr>
-          <td>Kurisu Makise</td>
-          <td>
-            Uma jovem cientista brilhante especializada em neurociência.
-            Inicialmente cética, acaba se envolvendo no mistério da viagem no
-            tempo e ajudando Okabe a compreender suas implicações.
-          </td>
-          <td>
-            <img src="img/2.jpg" alt="Makise" class="character-img" />
-          </td>
-        </tr>
-        <tr>
-          <td>Mayuri Shiina</td>
-          <td>
-            Amiga de infância de Okabe e membro do laboratório, sempre gentil e
-            sonhadora. Seu jeito inocente e despreocupado esconde um profundo
-            vínculo com Okabe, tornando-se o centro de sua jornada.
-          </td>
-          <td>
-            <img src="img/3.jpg" alt="Mayuri" class="character-img" />
-          </td>
-        </tr>
-        <tr>
-          <td>Itaru "Daru" Hashida</td>
-          <td>
-            Hacker talentoso e braço direito de Okabe no Future Gadget Lab. Com
-            um humor peculiar e personalidade descontraída, ele é o responsável
-            pela parte técnica dos experimentos do grupo.
-          </td>
-          <td>
-            <img src="img/4.jpg" alt="Daru" class="character-img" />
-          </td>
-        </tr>
-      </table>
+    <!-- Slider -->
+    <div class="slider-background">
+      <div class="slider-container">
+        <div class="slider">
+          <a href="character-pages/okabe.html">
+            <img
+              src="assets/img/characters/character1.png"
+              alt="Okabe Rintaro"
+            />
+          </a>
+          <a href="link2.html">
+            <img
+              src="assets/img/characters/character2.png"
+              alt="Makise Kurisu"
+            />
+          </a>
+          <a href="link3.html">
+            <img
+              src="assets/img/characters/character3.png"
+              alt="Shiina Mayuri"
+            />
+          </a>
+          <a href="link3.html" target="_blank">
+            <img
+              src="assets/img/characters/character4.png"
+              alt="Hashida Itaru"
+            />
+          </a>
+          <a href="link3.html">
+            <img
+              src="assets/img/characters/character5.png"
+              alt="Amane Suzuha"
+            />
+          </a>
+          <a href="link3.html">
+            <img
+              src="assets/img/characters/character6.png"
+              alt="Urushibara Luka"
+            />
+          </a>
+          <a href="link3.html">
+            <img
+              src="assets/img/characters/character7.png"
+              alt="Faris Nyannyan"
+            />
+          </a>
+          <a href="link3.html">
+            <img
+              src="assets/img/characters/character8.png"
+              alt="Kiryu Moeka"
+            />
+          </a>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      </div>
     </div>
 
-    <button>
-      <a href="https://youtu.be/uMYhjVwp0Fk?si=toKmjW-L3pEKgKem" target="_blank"
-        >Trailer</a
-      >
-    </button>
+    <!-- Trailer -->
+    <div class="trailer-container">
+      <h2>Trailer</h2>
+      <div class="video-container">
+        <iframe
+          width="950"
+          height="515"
+          src="https://www.youtube.com/embed/uMYhjVwp0Fk?si=_MmHKuy-pV1I550i"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <script src="/assets/javascript/main.js"></script>
   </body>
 </html>
