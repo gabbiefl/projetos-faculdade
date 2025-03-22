@@ -6,17 +6,23 @@ Este repositório contém os projetos desenvolvidos ao longo do curso de **Anál
 Cada projeto está organizado em seu respectivo diretório, dividido por disciplinas, contendo código-fonte, documentação e, quando aplicável, arquivos auxiliares.
 
 ```
-📦 projetos-faculdade
+ projetos-faculdade
  ┣ 📂 desenvolvimento-web
  ┃ ┣ 📂 tv-series-webpage
- ┃ ┃ ┣ 📜 README.md
- ┃ ┃ ┗ 📜 código-fonte
+ ┃ ┃ ┣  README.md
+ ┃ ┃ ┗  código-fonte
+ ┃ ┃
  ┃ ┣ 📂 big-tech-website
- ┃ ┃ ┣ 📜 README.md
- ┃ ┃ ┗ 📜 código-fonte
- ┗ 📜 README.md (este arquivo)
+ ┃ ┃ ┣  README.md
+ ┃ ┃ ┗  código-fonte
+ ┃ ┃
+ ┃ ┣ 📂 youtube-wireframe-prototype
+ ┃ ┃ ┣  README.md
+ ┃ ┃ ┗  código-fonte
+ ┃ 
+ ┗ README.md (este arquivo)
 ```
-## 📌 Projetos Destacados
+## 📌 Projetos 
 
 ### 🕰️ Steins;Gate Webpage
 - **Descrição:** Página web dedicada à série de TV *Steins;Gate*, apresentando informações como sinopse, elenco e detalhes do enredo.
@@ -36,7 +42,15 @@ Cada projeto está organizado em seu respectivo diretório, dividido por discipl
   - Página de Cadastro com formulário contendo nome, e-mail, telefone e botão de envio.
   - Página Sobre com informações detalhadas sobre a história, missão e valores da empresa.
   - Links de navegação entre as páginas.
-- **Status:** Em andamento.
+- **Status:** Finalizado.
+
+### 🖥️ Protótipo de Wireframe - YouTube
+- **Descrição:** Protótipo de interface baseado em um wireframe inspirado no YouTube.
+- **Tecnologias:** HTML, CSS.
+- **Requisitos:**
+  - Criar a interface conforme o wireframe fornecido.
+  - Utilizar HTML e CSS para estilização e estruturação da página.
+- **Status:** Finalizado.
 
 ---
 
