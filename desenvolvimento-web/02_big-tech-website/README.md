@@ -29,7 +29,7 @@ Deve conter um formulário básico com campos como:
 -  Um link que retorne à página home (index.html).
 
 ## Capturas de Tela
-Index:
+Home:
 ![Captura de tela - Index](assets/img/screenshots/intel-screenshot-1.jpg)
 ![Captura de tela - Index](assets/img/screenshots/intel-screenshot-2.jpg)
 
