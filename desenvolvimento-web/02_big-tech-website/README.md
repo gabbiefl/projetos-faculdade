@@ -28,6 +28,10 @@ Deve conter um formulário básico com campos como:
 -  Pelo menos um parágrafo explicativo em cada seção.
 -  Um link que retorne à página home (index.html).
 
+## Tecnologias:
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
 ## Capturas de Tela
 Home:
 ![Captura de tela - Index](assets/img/screenshots/intel-screenshot-1.jpg)
