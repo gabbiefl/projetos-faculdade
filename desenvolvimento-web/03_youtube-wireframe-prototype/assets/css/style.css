@@ -12,6 +12,7 @@ body {
   color: #3e3e3e;
 }
 
+/* Cabeçalho */
 header {
   margin: 20px 50px 20px 50px;
   display: flex;
@@ -21,6 +22,16 @@ header {
 
 header img {
   width: 120px;
+}
+
+header img:hover {
+  cursor: pointer;
+}
+
+/* Todos botões */
+button:hover {
+  background-color: #c4c4c4;
+  cursor: pointer;
 }
 
 .header__search-bar {
@@ -57,7 +68,8 @@ header img {
   border: 1px solid #646464;
 }
 
-.container {
+/* Menu lateral */
+.side-menu__container {
   display: flex;
   align-items: flex-start;
 }
@@ -105,20 +117,19 @@ header img {
   font-size: 18px;
 }
 
+.side-menu__subscriptions li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #646464;
+}
+
+/* Main */
 .main__content {
   flex: 1; /* Faz o conteúdo principal ocupar o espaço restante */
   padding: 20px;
 }
 
-.main__ad-banner {
-  display: flex;
-  justify-content: center;
-}
-
-.main__ad-banner img {
-  width: 40%;
-}
-
+/* Botões Centrais */
 .main__buttons {
   display: flex;
   align-items: center;
@@ -132,5 +143,59 @@ header img {
   margin-right: 10px;
   border-radius: 12px;
   border: 1px solid #646464;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+/* Anúncio */
+.main__ad-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.main__ad-banner img {
+  max-width: 500px;
+}
+
+/* Recomendações e Últimos Uploads */
+
+.video__section {
+  margin-top: 25px;
+}
+
+.video__section h2 {
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+
+.video__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.video__grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.video__thumbnail img {
+  max-width: 200px;
+}
+
+.video__title {
+  color: #252525;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.video__uploader, .video_info {
+  color: #4b4b4b;
+  font-size: 15px;
+}
+
+.video__title:hover, .video__uploader:hover {
+  cursor: pointer;
+  color: #696969;
+  text-decoration: underline;
 }

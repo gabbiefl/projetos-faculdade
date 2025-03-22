@@ -10,6 +10,6 @@ Tendo em vista o Wireframe abaixo crie sua versão de protótipo fazendo uso de 
 
 ![Wireframe](assets/img/wireframe/wireframe.png)
 
+## Captura de Tela
 
-
-
+![Screenshot](assets/img/screenshots/youtube-prototype.jpg)
